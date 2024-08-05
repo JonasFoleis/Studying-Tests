@@ -24,7 +24,7 @@ with open('fones.txt', 'r') as arquivo:
 
 
 for telefone in telefones:
-    webbrowser.open_new_tab(f'https://api.whatsapp.com/send?phone={telefone}')
+    webbrowser.open_new_tab(f'https://web.whatsapp.com/send?phone={telefone}')
     sleep(10)
     pyautogui.click(1042,248, duration=1)
     sleep(10)
